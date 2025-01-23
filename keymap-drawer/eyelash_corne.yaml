@@ -42,12 +42,12 @@ layers:
   - {t: ., s: '>'}
   - '{'
   - '}'
-  - {t: '$$mdi:keyboard-space$$', h: Fn}
-  - SYMBOL
-  - NUMBER
-  - NUMBER
-  - SYMBOL
-  - {t: '$$mdi:keyboard-space$$', h: Fn}
+  - {t: '$$mdi:keyboard-return$$', h: Fn}
+  - {t: '$$mdi:keyboard-space$$', h: SYMBOL}
+  - {t: '$$mdi:keyboard-tab$$', h: NUMBER}
+  - {t: '$$mdi:keyboard-tab$$', h: NUMBER}
+  - {t: '$$mdi:keyboard-space$$', h: SYMBOL}
+  - {t: '$$mdi:keyboard-return$$', h: Fn}
   NUMBER:
   - {t: '$$mdi:transfer$$', type: trans}
   - '1'
@@ -124,7 +124,7 @@ layers:
   - {t: '=', s: +}
   - {t: '[', s: '{'}
   - {t: ']', s: '}'}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - '?'
   - {t: '`', s: '~'}
   - {t: '$$mdi:transfer$$', type: trans}
   - OUT USB
