@@ -54,10 +54,10 @@
         default_layer {
             display-name = "QWERTY";
             bindings = <
-&kp ESCAPE  &kp Q  &kp W  &kp E        &kp R  &kp T                     &kp UP                &kp Y  &kp U  &kp I        &kp O    &kp P           &kp BSPC
-&td0        &kp A  &kp S  &kp D        &kp F  &kp G           &kp LEFT  &kp ENTER  &kp RIGHT  &kp H  &kp J  &kp K        &kp L    &kp SEMI        &kp SQT
-&kp LCTRL   &kp Z  &kp X  &kp C        &kp V  &kp B  &none              &kp DOWN              &kp N  &kp M  &kp COMMA    &kp DOT  &kp LEFT_BRACE  &kp RIGHT_BRACE
-                          &lt 3 SPACE  &mo 2  &mo 1                                           &mo 1  &mo 2  &lt 3 SPACE
+&kp ESCAPE  &kp Q  &kp W  &kp E        &kp R        &kp T                         &kp UP                &kp Y      &kp U        &kp I        &kp O    &kp P           &kp BSPC
+&td0        &kp A  &kp S  &kp D        &kp F        &kp G               &kp LEFT  &kp ENTER  &kp RIGHT  &kp H      &kp J        &kp K        &kp L    &kp SEMI        &kp SQT
+&kp LCTRL   &kp Z  &kp X  &kp C        &kp V        &kp B      &none              &kp DOWN              &kp N      &kp M        &kp COMMA    &kp DOT  &kp LEFT_BRACE  &kp RIGHT_BRACE
+                          &lt 3 ENTER  &lt 2 SPACE  &lt 1 TAB                                           &lt 1 TAB  &lt 2 SPACE  &lt 3 ENTER
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
@@ -78,9 +78,9 @@
         raise_layer {
             display-name = "SYMBOL";
             bindings = <
-&trans  &kp EXCL      &kp AT        &kp HASH   &kp DLLR   &kp PRCNT                            &mmv MOVE_UP                     &kp CARET  &kp AMPS   &kp ASTRK      &kp LPAR   &kp RPAR  &kp BSPC
-&trans  &bt BT_CLR    &mkp LCLK     &mkp MCLK  &mkp RCLK  &mkp MB4             &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp MINUS  &kp EQUAL  &kp LBKT       &kp RBKT   &none     &kp GRAVE
-&trans  &out OUT_USB  &out OUT_BLE  &none      &none      &mkp MB5   &trans                    &mmv MOVE_DOWN                   &kp UNDER  &kp PLUS   &kp BACKSLASH  &kp SLASH  &kp PIPE  &kp TILDE
+&trans  &kp EXCL      &kp AT        &kp HASH   &kp DLLR   &kp PRCNT                            &mmv MOVE_UP                     &kp CARET  &kp AMPS   &kp ASTRK      &kp LPAR   &kp RPAR      &kp BSPC
+&trans  &bt BT_CLR    &mkp LCLK     &mkp MCLK  &mkp RCLK  &mkp MB4             &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp MINUS  &kp EQUAL  &kp LBKT       &kp RBKT   &kp QUESTION  &kp GRAVE
+&trans  &out OUT_USB  &out OUT_BLE  &none      &none      &mkp MB5   &trans                    &mmv MOVE_DOWN                   &kp UNDER  &kp PLUS   &kp BACKSLASH  &kp SLASH  &kp PIPE      &kp TILDE
                                     &trans     &trans     &kp SPACE                                                             &kp RET    &trans     &trans
             >;
 
