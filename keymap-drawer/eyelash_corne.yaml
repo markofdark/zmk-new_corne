@@ -224,7 +224,7 @@ layers:
   - RGB SPD
   - RGB EFF
   - RGB EFR
-  - {t: '$$mdi:transfer$$', type: trans}
+  - QWERTY
   - $$mdi:bluetooth-off$$
   - {h: '$$mdi:arrow-down-bold$$', s: '$$mdi:bluetooth-connect$$'}
   - {h: '$$mdi:arrow-up-bold$$', s: '$$mdi:bluetooth-connect$$'}
