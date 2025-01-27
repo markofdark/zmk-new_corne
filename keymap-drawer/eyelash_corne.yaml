@@ -12,7 +12,7 @@ layers:
   - I
   - O
   - P
-  - '{'
+  - {t: '[', s: '{'}
   - '&td0'
   - A
   - S
@@ -27,8 +27,8 @@ layers:
   - K
   - L
   - {t: '''', s: '"'}
-  - '}'
-  - $$mdi:keyboard-tab$$
+  - {t: ']', s: '}'}
+  - $$mdi:apple-keyboard-option$$
   - Z
   - X
   - C
@@ -43,11 +43,11 @@ layers:
   - {t: /, s: '?'}
   - {t: ;, s: ':'}
   - $$mdi:apple-keyboard-control$$
-  - Fn
-  - SYMBOL
+  - {t: '$$mdi:keyboard-tab$$', h: Fn}
+  - {t: '$$mdi:keyboard-space$$', h: SYMBOL}
+  - {t: '$$mdi:backspace$$', type: backspace}
   - {t: '$$mdi:keyboard-space$$', h: NUMBER}
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - {t: '$$mdi:backspace$$', type: backspace}
   NUMBER:
   - {t: '$$mdi:transfer$$', type: trans}
   - '1'
@@ -94,8 +94,8 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   SYMBOL:
   - {t: '$$mdi:transfer$$', type: trans}
