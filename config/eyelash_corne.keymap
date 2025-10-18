@@ -52,10 +52,10 @@
         default_layer {
             display-name = "QWERTY";
             bindings = <
-&kp ESCAPE      &kp Q  &kp W  &kp E      &kp R         &kp T                           &kp UP                &kp Y        &kp U        &kp I          &kp O    &kp P      &kp LEFT_BRACKET
-&sk LEFT_SHIFT  &kp A  &kp S  &kp D      &kp F         &kp G                 &kp LEFT  &kp ENTER  &kp RIGHT  &kp H        &kp J        &kp K          &kp L    &kp SQT    &kp RIGHT_BRACKET
-&kp TAB         &kp Z  &kp X  &kp C      &kp V         &kp B        &none              &kp DOWN              &kp N        &kp M        &kp COMMA      &kp DOT  &kp SLASH  &kp SEMICOLON
-                              &kp RCTRL  &kp LEFT_ALT  &lt 1 SPACE                                           &lt 3 ENTER  &lt 2 SPACE  &kp BACKSPACE
+&kp ESCAPE      &kp Q  &kp W  &kp E      &kp R         &kp T                           &kp UP                &kp Y        &kp U        &kp I            &kp O    &kp P      &kp LEFT_BRACKET
+&sk LEFT_SHIFT  &kp A  &kp S  &kp D      &kp F         &kp G                 &kp LEFT  &kp ENTER  &kp RIGHT  &kp H        &kp J        &kp K            &kp L    &kp SQT    &kp RIGHT_BRACKET
+&kp TAB         &kp Z  &kp X  &kp C      &kp V         &kp B        &none              &kp DOWN              &kp N        &kp M        &kp COMMA        &kp DOT  &kp SLASH  &kp SEMICOLON
+                              &kp RCTRL  &kp LEFT_ALT  &lt 1 SPACE                                           &lt 3 ENTER  &lt 2 SPACE  &lt 4 BACKSPACE
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
@@ -99,10 +99,10 @@
 
         layer_4 {
             bindings = <
-&trans  &trans          &trans        &trans        &trans         &trans                             &trans          &rgb_ug RGB_OFF                 &rgb_ug RGB_ON                    &rgb_ug RGB_HUI                    &rgb_ug RGB_HUD                    &rgb_ug RGB_SAI  &rgb_ug RGB_SAD
-&trans  &bt BT_CLR_ALL  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2   &bt BT_SEL 3               &trans  &trans  &trans  &rgb_ug RGB_BRI                 &rgb_ug RGB_BRD                   &rgb_ug RGB_SPI                    &rgb_ug RGB_SPD                    &rgb_ug RGB_EFF  &rgb_ug RGB_EFR
-&tog 4  &bt BT_CLR      &bt BT_NXT    &bt BT_PRV    &bt BT_DISC 0  &rgb_ug RGB_EFF  &trans            &trans          &rgb_ug RGB_COLOR_HSB(0,0,100)  &rgb_ug RGB_COLOR_HSB(117,89,81)  &rgb_ug RGB_COLOR_HSB(180,100,72)  &rgb_ug RGB_COLOR_HSB(271,100,80)  &trans           &trans
-                                      &trans        &trans         &trans                                             &trans                          &trans                            &trans
+&trans  &trans  &trans        &trans        &trans         &trans                             &trans          &rgb_ug RGB_OFF                 &rgb_ug RGB_ON                    &rgb_ug RGB_HUI                    &rgb_ug RGB_HUD                    &rgb_ug RGB_SAI  &rgb_ug RGB_SAD
+&trans  &trans  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2   &bt BT_SEL 3               &trans  &trans  &trans  &rgb_ug RGB_BRI                 &rgb_ug RGB_BRD                   &rgb_ug RGB_SPI                    &rgb_ug RGB_SPD                    &rgb_ug RGB_EFF  &rgb_ug RGB_EFR
+&trans  &trans  &bt BT_NXT    &bt BT_PRV    &bt BT_DISC 0  &rgb_ug RGB_EFF  &trans            &trans          &rgb_ug RGB_COLOR_HSB(0,0,100)  &rgb_ug RGB_COLOR_HSB(117,89,81)  &rgb_ug RGB_COLOR_HSB(180,100,72)  &rgb_ug RGB_COLOR_HSB(271,100,80)  &trans           &trans
+                              &trans        &trans         &trans                                             &trans                          &trans                            &trans
             >;
 
             sensor-bindings = <&rgb_encoder>;
